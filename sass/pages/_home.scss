@@ -1,0 +1,51 @@
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.list-conteiner {
+    max-width: 60%;
+    margin: 40px auto;
+    background-color: $bg-color;
+    padding: 30px 60px;
+    box-sizing: border-box;
+
+    ol {
+        padding: 25px;
+        overflow-wrap: break-word;
+    }
+
+    li {
+        margin: 10px 0;
+        color: $text-color;
+        border-bottom: 1px solid $text-color;
+    }
+
+    input {
+        padding: 5px 10px;
+        color: $text-color;
+        background-color: #e6e2e2;
+        border: 1px solid $text-color;
+    }
+}
+
+.to-do {
+    margin: 40px 0;
+}
+
+.dell {
+    background-color: $bg-color;
+    color: #008080;
+    margin-left: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#add {
+    margin-left: 10px;
+    background-color: transparent;
+    padding: 5px 20px;
+    border: 2px solid $text-color;
+    border-radius: 10px;
+    cursor: pointer;
+}
